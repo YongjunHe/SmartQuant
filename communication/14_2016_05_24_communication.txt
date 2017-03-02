@@ -1,0 +1,5 @@
+who:邓逸鹏，周畅，黄迪璇，何永俊
+when:第十四周
+what:再次讨论系统用例文档，需求规格文档，项目设计文档
+how long:1h
+arrived solutions:

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+        <script type="text/javascript" src="scripts/jquery/jquery-1.7.1.js"></script>
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="scripts/echarts/echarts.js"></script>
+</head>
+<body>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="width: 1000px;height:400px;"></div>
+<script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('main'));
+    
+    
+    $.ajax({  
+        type : "GET",  //提交方式  
+        url : "action/arbrChartMessage.jsp",//路径  
+        dataType: "json",
+        success : function(result) {//返回数据根据结果进行相应的处理  
+			showChart(result);
+        	getAnalysis();
+        } 
+    	
+    });
+
+	
+    function showChart(result){
+        option = {
+        	    title: {
+        	        text: '行业分析'
+        	    },
+        	    tooltip: {},
+        	    legend: {
+        	        data: ['人气指标（AR）', '意愿指标（BR）']
+        	    },
+        	    radar: {
+        	        // shape: 'circle',
+        	        indicator: [
+        	           { name: result[0].cType, max: 400},
+        	           { name: result[1].cType, max: 400},
+        	           { name: result[2].cType, max: 400},
+        	           { name: result[3].cType, max: 400},
+        	           { name: result[4].cType, max: 400},
+        	           { name: result[5].cType, max: 400}
+        	        ]
+        	    },
+        	    series: [{
+        	        name: 'ARBRChart',
+        	        type: 'radar',
+        	        // areaStyle: {normal: {}},
+        	        data : [
+        	            {
+        	                value : [result[0].avgAR, result[1].avgAR, result[2].avgAR, result[3].avgAR, result[4].avgAR, result[5].avgAR],
+        	                name : '人气指标（AR）'
+        	            },
+        	             {
+        	                value : [result[0].avgBR, result[1].avgBR, result[2].avgBR, result[3].avgBR, result[4].avgBR, result[5].avgBR],
+        	                name : '意愿指标（BR）'
+        	            }
+        	        ]
+        	    }]
+        	};
+
+
+        myChart.setOption(option);
+    }
+    
+    function getAnalysis(){
+        $.ajax({  
+            type : "GET",  //提交方式  
+            url : "action/arbrAnalysisMessage.jsp",//路径  
+            dataType: "text",
+            success : function(result) {//返回数据根据结果进行相应的处理  
+            	$("#analysis").html(result)
+            } 
+        	
+        });
+    }
+
+
+
+ 
+
+</script>
+         <div  style="height:50px;line-height: 50px;background-color: #044599;font-family:微软雅黑;font-size:21px;color:#FFF0F5;">
+    		&nbsp;图表分析
+		 </div>
+		 <p style="        position:relative;       left:5px;        top:10px;        font-family:微软雅黑;        font-size:15px;">
+		 		1.一般情况下，AR指标可以单独使用，BR指标则需与AR指标并用，才能发挥效用。该指标虽不适合捕捉到大底部，但是灵活运用该指标，却能够抓住局部底部，特别适合做反弹。
+		 	<br>2.BR小于AR，且BR小于100，可考虑逢低买进。
+			<br>3.BR小于AR，而AR小于50时，是买进信号；BR大于AR，再转为BR小于AR时，也可买进。
+			<br>4.AR和BR同时急速上升，意味着股价已近顶部，持股者应逢高卖出。
+			<br>5.BR急速上升，而AR处在盘整或小跌时，应逢高卖出。
+			<br>6.BR从高峰回跌，跌幅达1至2倍时，若AR无警戒讯号出现，应逢低买进。</p>
+		<p id="analysis" style="        position:relative;
+        left:5px;
+        top:10px;
+        font-family:微软雅黑;
+        font-size:15px;"></p>
+</body>
+</html>

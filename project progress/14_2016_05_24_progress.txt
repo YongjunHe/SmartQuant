@@ -1,0 +1,17 @@
+who:周畅
+when:第14周
+what:研究js，协助邓逸鹏完成网页开发
+problem:
+todo:熟悉统计图表绘制
+
+who:何永俊
+when:第14周
+what:学习html
+problem:
+todo:
+
+who:邓逸鹏
+when:第14周
+what:修改原有框架，运用ajax和jsp与服务端进行链接
+problem:
+todo:修改界面层次结构

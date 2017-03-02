@@ -1,0 +1,7 @@
+week11:搭建数据库
+       搭建maven环境，配置jenkins
+
+problem:web开发技术相关
+
+week12:添加新功能点
+       使用web技术进行界面开发

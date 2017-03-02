@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menubar>
+	<menu text="系统">
+        <menuitem text="未处理事项"></menuitem>
+        <menuitem text="登出" tooltip="登出" icon="/free/test/email.png" action="登出"/>
+	</menu>
+    <logo image="/free/test/logo_company.png" tooltip="WPT Power Transmission" />
+</menubar>

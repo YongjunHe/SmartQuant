@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="scripts/jquery/jquery-1.7.1.js"></script>
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="scripts/echarts/echarts.min.js"></script>
+</head>
+<body>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="width: 600px;height:400px;"></div>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+    var data = [];
+    var now = +new Date(1997, 9, 3); //要改
+    var oneDay = 24 * 3600 * 1000;
+    var value = Math.random() * 1000;
+    for (var i = 0; i < 1000; i++) {
+        data.push(randomData());
+    }
+
+
+    $.ajax({
+        type : "GET",  //提交方式
+        url : "action/averageChartMessage.jsp",//路径
+        data : "name="+getvalue("name")+"&beginDate="+getvalue("beginDate")+"&endDate="+getvalue("endDate"),
+        dataType: "json",//??
+        success : function(result) {//返回数据根据结果进行相应的处理
+            data=splitData(solveJson(result));//要改
+            showKchart(getCName());
+        }
+
+    });
+
+
+
+    function getCName(){
+        var cName;
+        $.ajax({
+            type : "GET",  //提交方式
+            url : "action/getCName.jsp",//路径
+            data : "name="+getvalue("name"),
+            async : false,
+            dataType: "text",
+            success : function(result) {//返回数据根据结果进行相应的处理
+                cName = result;
+            }
+
+        });
+
+
+        return cName.replace(/[\r\n]/g,"");
+    }
+
+  /*  function solveJson(jsonData){
+        var a = new Array(jsonData.length);
+        for(var i=0;i<jsonData.length;i++){
+            var temp = new Array(5);
+            temp[0]=jsonData[i].date;
+            temp[1]=jsonData[i].open;
+            temp[2]=jsonData[i].close;
+            temp[3]=jsonData[i].low;
+            temp[4]=jsonData[i].high;
+            a[i]=temp;
+        }
+        return a;
+    }
+*/
+
+    function getvalue(name){
+        var str=window.location.search;
+        if (str.indexOf(name)!=-1){
+            var pos_start=str.indexOf(name)+name.length+1;
+            var pos_end=str.indexOf("&",pos_start);
+            if (pos_end==-1){
+                return str.substring(pos_start);
+            }else{
+                return str.substring(pos_start,pos_end);
+            }
+        }
+    }
+
+    function randomData() {
+        now = new Date(+now + oneDay);
+        value = value + Math.random() * 21 - 10;
+        return {
+            name: now.toString(),
+            value: [
+                [now.getFullYear(), now.getMonth() + 1, now.getDate()].join('-'),
+                Math.round(value)
+            ]
+        }
+    }
+
+    function showLineChart(cName) {
+        option = {
+            title: {
+                text: '动态数据 + 时间坐标轴'
+            },
+            tooltip: {
+                trigger: 'axis',
+                formatter: function (params) {
+                    params = params[0];
+                    var date = new Date(params.name);
+                    return date.getDate() + '/' + (date.getMonth() + 1) + '/' + date.getFullYear() + ' : ' + params.value[1];
+                },
+                axisPointer: {
+                    animation: false
+                }
+            },
+            xAxis: {
+                type: 'time',
+                splitLine: {
+                    show: false
+                }
+            },
+            yAxis: {
+                type: 'value',
+                boundaryGap: [0, '100%'],
+                splitLine: {
+                    show: false
+                }
+            },
+            series: [{
+                name: '数据',
+                type: 'line',
+                showSymbol: false,
+                hoverAnimation: false,
+                data: data
+            }]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    }
+
+    app.timeTicket = setInterval(function () {
+
+        for (var i = 0; i < 5; i++) {
+            data.shift();
+            data.push(randomData());
+        }
+
+        myChart.setOption({
+            series: [{
+                data: data
+            }]
+        });
+    }, 1000);
+
+</script>
+</body>
+</html>

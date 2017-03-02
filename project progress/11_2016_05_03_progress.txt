@@ -1,0 +1,17 @@
+who:何永俊
+when:第11周
+what:maven,jenkins配置
+problem:
+todo:
+
+who:周畅
+when:第11周
+what:研究html和css
+problem:
+todo:搭建初步的页面框架
+
+who:邓逸鹏
+when:第11周
+what:研究html和css
+problem:对于如何转web不是很了解
+todo：寻找一个现成的web项目进行学习

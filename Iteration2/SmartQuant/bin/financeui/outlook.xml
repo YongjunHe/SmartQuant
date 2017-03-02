@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outlook>
+	<module text="市场" icon="/images/market_unselected.png" selected_icon="/images/market_selected.png">
+	</module>
+	<module text="个股" icon="/images/singlestock_unselected.png" selected_icon="/images/singlestock_selected.png"></module>
+</outlook>

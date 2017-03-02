@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outlook>
+	<module text="股票列表" icon="/free/test/module_unselected.png" selected_icon="/free/test/module_selected.png">
+	</module>
+	<module text="大盘走势" icon="/free/test/module_unselected.png" selected_icon="/free/test/module_selected.png"></module>
+</outlook>

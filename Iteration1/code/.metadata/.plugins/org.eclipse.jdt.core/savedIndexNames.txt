@@ -1,0 +1,27 @@
+INDEX VERSION 1.127+/Users/apple/Desktop/SmartQuant/Iteration1/code/.metadata/.plugins/org.eclipse.jdt.core
+2282584235.index
+2866962951.index
+2710214941.index
+807371634.index
+1476274870.index
+1242669869.index
+524126782.index
+3344946283.index
+976068869.index
+1812935045.index
+1271342938.index
+4209189594.index
+2149991862.index
+3396885371.index
+1932296773.index
+2319825317.index
+2600413952.index
+677361136.index
+3589533847.index
+2928114023.index
+3748870543.index
+6796194.index
+4168895089.index
+3323628498.index
+4247765372.index
+4224751083.index

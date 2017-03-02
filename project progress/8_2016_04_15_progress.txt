@@ -1,0 +1,11 @@
+who:何永俊
+when:第8周
+what:ATR折线图，大盘点走势图，图表交互，文档补充
+problem:月K线图数据Bug
+todo:下周休息
+
+who:邓逸鹏
+when:第8周
+what:修改界面图标，适应整体风格
+problem:
+todo:

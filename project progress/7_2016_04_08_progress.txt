@@ -1,0 +1,18 @@
+who:何永俊
+when:第7周
+what:人气意愿指数折线图，月K线图，周K线图
+problem:
+todo:图表交互
+
+who:周畅
+when:第7周
+what:尝试重绘jlist和jtable，还有对一些细节部分进行完善
+problem: 重绘上述组件做了很多无用功
+todo:打算重新去绘制这些组件...
+     在这之后再去做消息提示框的重绘
+
+who:邓逸鹏
+when:第7周
+what:在界面添加新增图表
+problem:界面图表如何切换
+todo:图表交互

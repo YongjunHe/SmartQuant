@@ -1,0 +1,17 @@
+who:周畅
+when:第16周
+what:协助邓逸鹏完成网页开发
+problem:
+todo:
+
+who:何永俊
+when:第16周
+what:迭代三循环三项目计划文档，写代码
+problem:
+todo:
+
+who:邓逸鹏
+when:第16周
+what:完善图表，增加对股票未来趋势分析，修改bug
+problem:
+todo:

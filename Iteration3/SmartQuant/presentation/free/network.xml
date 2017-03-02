@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<network>
+    <node x="30" y="50"
+          text="AddUser"
+          network_text="AddUser"
+          tooltip="This is a tooltip of a node"
+          icon="/free/test/module.png"
+          list_icon="/free/test/submodule.png">
+        <button1 tooltip="This is a tooltip of a button" icon="/free/test/module_attachment.png" action="X002"/>
+    </node>
+    <node x="230" y="50"
+          text="DeleteUser"
+          network_text="DeleteUser"
+          tooltip="This is a tooltip of a node"
+          icon="/free/test/module.png"
+          list_icon="/free/test/chart.png">
+    	<button1 tooltip="This is a tooltip of a button"
+    		icon="/free/test/module_attachment.png" action="X002">
+    	</button1>
+    </node>
+    <node x="430" y="50" text="FixUser"
+          network_text="FixUser"
+          tooltip="This is a tooltip of a node"
+          icon="/free/test/module.png"
+          list_icon="/free/test/user.png">
+        <button1 tooltip="This is a tooltip of a button" icon="/free/test/module_attachment.png" action="X002"/>
+    </node>
+    <node x="30" y="220"
+          text="SeekUser"
+          network_text="SeekUser"
+          tooltip="This is a tooltip of a node"
+          icon="/free/test/module.png"
+          list_icon="/free/test/submodule.png">
+        <button1 tooltip="This is a tooltip of a button" icon="/free/test/module_attachment.png" action="X002"/>
+    </node>
+</network>

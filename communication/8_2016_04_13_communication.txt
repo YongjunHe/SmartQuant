@@ -1,0 +1,5 @@
+who:邓逸鹏，周畅，黄迪璇，何永俊
+when:第八周
+what:讨论月K线图数据BUG，4.14检查准备，文档整理
+how long:1h
+arrived solutions:1黄迪璇解决该BUG 2小组准备明天检查3何永俊黄迪璇完善文档

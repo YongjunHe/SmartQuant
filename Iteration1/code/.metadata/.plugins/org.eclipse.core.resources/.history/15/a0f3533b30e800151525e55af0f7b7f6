@@ -1,0 +1,36 @@
+package impl;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import enums.SortType;
+import message.Range;
+import service.SmartSortService;
+import twaver.base.A.E.i;
+
+public class SmartSort implements SmartSortService{
+
+	@Override
+	public Iterator sort(SortType sortType, Range range, String beginDate, String endDate) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	public Iterator sort(SortType sortType, Range range, String beginDate, String endDate) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	public Iterator sort(SortType sortType, Range range, String beginDate, String endDate) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	public Iterator sort(SortType sortType, Range range, String beginDate, String endDate) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	}

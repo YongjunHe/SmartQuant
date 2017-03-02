@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04266090-3739-44d4-be37-c06e76227de5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooser$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooser$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooser$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooser$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooser$DateChooserButton.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooser$DateChooserButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooser$DatePanel.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooser$DatePanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooser.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooserJButton$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooserJButton$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooserJButton$DateChooser.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooserJButton$DateChooser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooserJButton.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/dateChoose/DateChooserJButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/enums/CompareType.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/enums/CompareType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/enums/Cyc.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/enums/Cyc.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/enums/DataType.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/enums/DataType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/enums/Location.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/enums/Location.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/enums/MarketType.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/enums/MarketType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/enums/MessageType.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/enums/MessageType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/enums/Recommendation.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/enums/Recommendation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/enums/StockType.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/enums/StockType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$1$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$3.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$4.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$5.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$6.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$7.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MainFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketPanel$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketPanel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketPanel$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketPanel$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketPanel$3.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketPanel$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketPanel$4.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketPanel$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketPanel.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketShortcutPanel$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketShortcutPanel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketShortcutPanel.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketShortcutPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketTablePanel$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketTablePanel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketTablePanel$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketTablePanel$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketTablePanel.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/MarketTablePanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/StockTablePanel$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/StockTablePanel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/StockTablePanel$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/StockTablePanel$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/StockTablePanel$3.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/StockTablePanel$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/StockTablePanel$4.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/StockTablePanel$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/StockTablePanel$5.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/StockTablePanel$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/StockTablePanel.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/StockTablePanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/financeui/Test.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/financeui/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/BaseUI.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/BaseUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeContentPane.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeContentPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeGarbageCollectButton$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeGarbageCollectButton$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeGarbageCollectButton.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeGarbageCollectButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeHeader$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeHeader$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeHeader.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeHeader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeLink.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeLink.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeList$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeList$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeList.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeListPane$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeListPane$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeListPane$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeListPane$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeListPane.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeListPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeListRenderer$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeListRenderer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeListRenderer.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeListRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeListSplitListener.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeListSplitListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeMemoryBar$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeMemoryBar$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeMemoryBar.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeMemoryBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeMenu.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeMenuBar.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeMenuBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeMenuItem.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeMenuItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$2$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$3.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$4.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$5.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$6.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$7.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetwork.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetworkShadowCushion.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNetworkShadowCushion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNode.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNodeButtonAttachment$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNodeButtonAttachment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNodeButtonAttachment$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNodeButtonAttachment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNodeButtonAttachment.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNodeButtonAttachment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNodeUI.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeNodeUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookBar$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookBar$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookBar$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookBar$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookBar$3.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookBar$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookBar.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookHeader.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookHeader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookList$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookList$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookList.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookListRenderer.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookListRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookPane$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookPane$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookPane$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookPane$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookPane.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookSplitListener.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeOutlookSplitListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreePagePane.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreePagePane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreePasswordField$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreePasswordField$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreePasswordField.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreePasswordField.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreePopupMenuBorder.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreePopupMenuBorder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeProgressBar$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeProgressBar$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeProgressBar.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeProgressBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeReportPage$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeReportPage$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeReportPage.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeReportPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeRootMenu.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeRootMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeSearchTextField$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeSearchTextField$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeSearchTextField$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeSearchTextField$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeSearchTextField.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeSearchTextField.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeSeparator.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeSeparator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeStatusBar.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeStatusBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeStatusLabel.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeStatusLabel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeStatusMessageLabel.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeStatusMessageLabel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeStatusSeparator.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeStatusSeparator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeStatusTimeLabel$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeStatusTimeLabel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeStatusTimeLabel.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeStatusTimeLabel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTabComponent$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTabComponent$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTabComponent.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTabComponent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTabbedPane$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTabbedPane$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTabbedPane.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTabbedPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTabbedPaneUI.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTabbedPaneUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTable.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTableCellRenderer.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTableCellRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTableHeaderRenderer$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTableHeaderRenderer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTableHeaderRenderer.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTableHeaderRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTextField$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTextField$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTextField.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeTextField.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeToolBar.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeToolBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeToolbarButton$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeToolbarButton$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeToolbarButton$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeToolbarButton$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeToolbarButton.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeToolbarButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeToolbarRoverButton.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeToolbarRoverButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeUtil$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeUtil$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeUtil$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeUtil$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeUtil$3.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeUtil$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/FreeUtil.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/FreeUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/GraphicsUtilities.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/GraphicsUtilities.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/ShadowRenderer.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/ShadowRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/free/Work.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/free/Work.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/ARBRImpl.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/ARBRImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/ATRImpl.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/ATRImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/ExcelHelper.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/ExcelHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/FinalSign.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/FinalSign.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/HttpConnectUtil$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/HttpConnectUtil$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/HttpConnectUtil.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/HttpConnectUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/HttpHelper.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/HttpHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/MeanCaculation.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/MeanCaculation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/SimpleStockImpl.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/SimpleStockImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/SmartSort$MyDownComparator.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/SmartSort$MyDownComparator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/SmartSort$MyUpComparator.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/SmartSort$MyUpComparator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/SmartSort.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/SmartSort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/StockCheck.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/StockCheck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/StockDataDispose.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/StockDataDispose.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/SummaryCheck.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/SummaryCheck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/SummaryDataDispose.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/SummaryDataDispose.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/impl/WMSRImpl.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/impl/WMSRImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/kChart/CalibrationSpiderWebPlot.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/kChart/CalibrationSpiderWebPlot.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/kChart/Main.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/kChart/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/kChart/SimpleARBRChart.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/kChart/SimpleARBRChart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/kChart/SimpleATRChart.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/kChart/SimpleATRChart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/kChart/SimpleKChart$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/kChart/SimpleKChart$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/kChart/SimpleKChart.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/kChart/SimpleKChart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/kChart/SimpleSummaryChart$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/kChart/SimpleSummaryChart$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/kChart/SimpleSummaryChart.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/kChart/SimpleSummaryChart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/ARBRDateNode.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/ARBRDateNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/ARBRReport.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/ARBRReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/ARBRStock.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/ARBRStock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/MeanDateNode.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/MeanDateNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/MeanStock.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/MeanStock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/NodeService.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/NodeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/Range.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/Range.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/SimpleStock.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/SimpleStock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/SimpleStockNode.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/SimpleStockNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/Stock.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/Stock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/StockDateNode.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/StockDateNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/StockList.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/StockList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/StockMessage$StockDateMessage.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/StockMessage$StockDateMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/StockMessage.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/StockMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/Summary.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/Summary.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/SummaryDateNode.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/SummaryDateNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/SummaryMessage$SummaryDateMessage.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/SummaryMessage$SummaryDateMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/SummaryMessage.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/SummaryMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/WMSRDateNode.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/WMSRDateNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/message/WMSRStock.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/message/WMSRStock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/service/ARBRService.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/service/ARBRService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/service/ATRService.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/service/ATRService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/service/MeanService.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/service/MeanService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/service/SimpleStockService.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/service/SimpleStockService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/service/SmartSortService.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/service/SmartSortService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/service/StockCheckService.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/service/StockCheckService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/service/StockDisposeService.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/service/StockDisposeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/service/SummaryCheckService.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/service/SummaryCheckService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/service/SummaryDisposeService.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/service/SummaryDisposeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/service/WMSRService.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/service/WMSRService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartArrowButton.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartArrowButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartButton$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartButton$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartButton.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartCellRendererPane.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartCellRendererPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartCheckBox$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartCheckBox$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartCheckBox.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartCheckBox.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartCheckBoxUI.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartCheckBoxUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartCloseButton$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartCloseButton$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartCloseButton.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartCloseButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartComboBox.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartComboBox.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartComboBoxEditor.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartComboBoxEditor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartComboBoxUI.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartComboBoxUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartComboPopup.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartComboPopup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartFrame$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartFrame$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartFrame$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartFrame$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartFrame$3.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartFrame$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartFrame$4.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartFrame$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartFrame$5.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartFrame$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartFrame.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartLabel.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartLabel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartList.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartListUI.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartListUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartMaxButton$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartMaxButton$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartMaxButton.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartMaxButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartMiniButton$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartMiniButton$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartMiniButton.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartMiniButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartNormalButtonUI.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartNormalButtonUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartOutlookBar.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartOutlookBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartOutlookPane.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartOutlookPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartPanel.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartRadioButton$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartRadioButton$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartRadioButton.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartRadioButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartRadioButtonUI.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartRadioButtonUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartReportPane.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartReportPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartScrollBarUI.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartScrollBarUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartScrollPane.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartScrollPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartSearchField$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartSearchField$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartSearchField$2.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartSearchField$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartSearchField$3.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartSearchField$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartSearchField.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartSearchField.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartSpecialButtonUI.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartSpecialButtonUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartTable.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartTableCellRenderer.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartTableCellRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartTableHeaderRenderer$1.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartTableHeaderRenderer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartTableHeaderRenderer.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartTableHeaderRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartTextArea.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartTextArea.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartTextField.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartTextField.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartToolBar.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartToolBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartUtil.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/SmartUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/smartUI/newSmartToolBar.class" afterPath="$PROJECT_DIR$/SmartQuant/bin/smartUI/newSmartToolBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AnyQuantWeb_maven/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AnyQuantWeb_maven/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Iteration2.iml" afterPath="$PROJECT_DIR$/.idea/Iteration2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartQuant/bin/.gitignore" afterPath="$PROJECT_DIR$/SmartQuant/bin/.gitignore" />
+    </list>
+    <ignored path="Iteration2.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Iteration2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SmartQuant/presentation/financeui/MainFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SmartQuant/logicservice/impl/SmartSort.java" />
+        <option value="$PROJECT_DIR$/SmartQuant/logicservice/impl/SimpleStockImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Iteration2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Iteration2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Iteration2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Iteration2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Iteration2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartQuant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AnyQuantWeb_maven" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/SmartQuant/presentation/financeui/MainFrame.java" />
+  </component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration default="false" name="ExcelHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="impl.ExcelHelper" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Iteration2" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SmartQuant.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/SmartQuant/SmartQuant.jar" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CBConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="HTTP_PORT_X" value="8080" />
+        <option name="JNDI_PORT" value="1099" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Iteration2" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="cloudfoundry-deploy" factoryName="CloudFoundry Deployment">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <force value="false" />
+      <verbose value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="financeui.MainFrame" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Iteration2" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ExcelHelper" />
+      <item index="2" class="java.lang.String" itemvalue="JAR Application.SmartQuant.jar" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JAR Application.SmartQuant.jar" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ExcelHelper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04266090-3739-44d4-be37-c06e76227de5" name="Default" comment="" />
+      <created>1464866187700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1464866187700</updated>
+      <workItem from="1464866191694" duration="4173000" />
+      <workItem from="1464870400376" duration="1459000" />
+      <workItem from="1464873471692" duration="2881000" />
+      <workItem from="1464877606065" duration="33000" />
+      <workItem from="1464878152112" duration="64000" />
+      <workItem from="1464878352711" duration="52000" />
+      <workItem from="1464878481860" duration="549000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9211000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18611987" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24743778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SmartQuant/presentation/financeui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/presentation/financeui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/presentation/financeui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/presentation/financeui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/presentation/financeui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/presentation/free/FreeGarbageCollectButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_25/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/presentation/smartUI/SmartOutlookPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/logicservice/impl/MeanCaculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/presentation/free/FreeGarbageCollectButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_25/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/logicservice/impl/SmartSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/logicservice/impl/SimpleStockImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/presentation/kChart/SimpleARBRChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/logicservice/impl/ARBRImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/dataservice/impl/ExcelHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/dataservice/impl/StockDataDispose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="117" column="38" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/test/src/SimpleStockImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartQuant/presentation/financeui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Iteration2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

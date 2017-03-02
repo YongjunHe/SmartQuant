@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="scripts/jquery/jquery-1.7.1.js"></script>
+    <link href="style/authority/basic_layout.css" rel="stylesheet" type="text/css">
+    <link href="style/authority/common_style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="scripts/authority/commonAll.js"></script>
+    <script type="text/javascript" src="scripts/fancybox/jquery.fancybox-1.3.4.js"></script>
+    <script type="text/javascript" src="scripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/authority/jquery.fancybox-1.3.4.css" media="screen"></link>
+    <script type="text/javascript" src="scripts/artDialog/artDialog.js?skin=default"></script>
+    <title>股票信息系统</title>
+    <script type="text/javascript">
+		var stocknumberlist = new Array();
+		var stocknumberindex = -1;
+        /** 模糊查询来电用户  **/
+
+        
+        function getvalue(name){
+            var str=window.location.search;   
+            if (str.indexOf(name)!=-1){           
+                var pos_start=str.indexOf(name)+name.length+1;
+                var pos_end=str.indexOf("&",pos_start);
+                if (pos_end==-1){
+                    return str.substring(pos_start);
+                }else{
+                    return str.substring(pos_start,pos_end);
+                }
+            }
+        }
+        
+        
+
+
+
+        /**设置日期选择框的默认日期**/
+        function showdate(){
+
+            var date = new Date();
+            document.getElementById('endDate').valueAsDate = date;
+            date.setMonth(date.getMonth()-1);
+            document.getElementById('startDate').valueAsDate = date;
+            
+            $("#chartContent").hide();
+        }
+        
+        function computeCorrelation(){
+
+        	var stockNumber = $("#stockNumber").val();
+
+        	if(stockNumber==''){
+        		stockNumber='600066';
+        	}
+        	
+        	if(checkChinese(stockNumber)){
+        		stockNumber = stocknumberlist[stocknumberindex];
+        		
+        	}
+        	
+
+
+    		$("#chartContent").show();
+        	
+
+            setSrc("correlationChart.html",stockNumber);
+            setAnalysis(stockNumber);
+    		getCName(stockNumber);
+        }
+        
+        
+        function getCName(stockNumber){
+ 
+            $.ajax({
+                type : "GET",  //提交方式
+                url : "action/getCName.jsp",//路径
+                data : "name="+stockNumber,
+                dataType: "text",
+                success : function(result) {//返回数据根据结果进行相应的处理
+                	$("#stockName").html(result.replace(/[\r\n]/g,""));
+                }
+
+            });
+
+
+
+        }
+        
+        function setSrc(chartSrc,stockNumber){
+        	var beginDate = $("#startDate").val();
+        	var endDate = $("#endDate").val();
+        	var para1 = $("#para1").val();
+        	var para2 = $("#para2").val();
+            
+
+            $("#dynamicChart").attr("src",chartSrc+"?name="+stockNumber+"&beginDate="+beginDate+"&endDate="+endDate+"&para1="+para1+"&para2="+para2);
+	
+        }
+        
+        function setAnalysis(stockNumber){
+        	var beginDate = $("#startDate").val();
+        	var endDate = $("#endDate").val();
+        	var para1 = $("#para1").val();
+        	var para2 = $("#para2").val();
+        	
+            $.ajax({
+                type : "GET",  //提交方式
+                url : "action/correlationAnalysis.jsp",//路径
+                data : "name="+stockNumber+"&beginDate="+beginDate+"&endDate="+endDate+"&para1="+para1+"&para2="+para2,
+                dataType: "text",
+                success : function(result) {//返回数据根据结果进行相应的处理
+                	$("#analysis").html(result);
+                }
+
+            });
+        }
+        
+		
+        
+        
+        function setdiv()
+        {
+         //根据输入框的位置来设置div的位置，不用解释了。
+         var tbx = document.getElementById("stockNumber");
+         var ddldiv = document.getElementById("ddldiv");
+         ddldiv.style.display = "";
+         if(tbx.value =="")
+         ddldiv.style.display='none';//如果输入框被清空了，也不可见
+         var etop = tbx.offsetTop;
+         var eleft = tbx.offsetLeft;
+         ddldiv.style.top = etop+180;
+         ddldiv.style.left = eleft+35;
+
+        }
+        
+        function selectthis()
+        {
+         //下拉框点击事件，用户点击了下拉框后，把点击的那一条记录显示到输入框中
+         	var ddl = document.getElementById("ddl");
+			stocknumberindex = ddl.selectedIndex;
+            document.getElementById('stockNumber').value = ddl.options[ddl.selectedIndex].text;
+            document.getElementById("ddldiv").style.display = 'none'; 
+
+
+
+        }
+        
+
+        
+        function setStockList(){
+            var name = $("#stockNumber").val();
+            $.ajax({
+                type : "GET",  //提交方式
+                url : "action/searchStockMessage.jsp",//路径
+                data : "name="+name,
+                dataType: "json",
+                success : function(result) {//返回数据根据结果进行相应的处理
+                	 var matchddl =  document.getElementById('ddl');
+            		 if(result.length != 0)
+            		 {
+            		  setdiv();//对包含下拉框的div进行位置处理，可不能让它随便在页面上放
+            		  matchddl.options.length = 0;
+            		  if(result.length>8){
+            			  matchddl.size = 8;//这句话，你去掉试试？可能会不爽，它是控制下拉框长度的，免得有滚动条
+            		  }else if(result.length==1){
+            			  matchddl.size =2;
+            		  }else{
+            			  matchddl.size =result.length;
+            		  }
+            		  for(var i=0;i<result.length;++i){
+            			  matchddl.options[matchddl.options.length] = new Option(result[i].cName);//将string数组里面的元素填充到下拉框中
+            			  stocknumberlist[i] = result[i].name;
+            		  }
+            		  
+            		 }else document.getElementById("ddldiv").style.display = 'none';
+                }
+
+            });
+
+        }
+        
+        function checkChinese(str){
+        	var reg = new RegExp("[\\u4E00-\\u9FFF]+","g");
+        	return reg.test(str);
+        }
+
+    </script>
+    <style>
+        .alt td{ background:black !important;}
+    </style>
+</head>
+<body onload="showdate()&computeCorrelation();">
+<form id="submitForm" name="submitForm" action="" method="post">
+
+    <input type="hidden" name="allIDCheck" value="" id="allIDCheck"/>
+    <input type="hidden" name="fangyuanEntity.fyXqName" value="" id="fyXqName"/>
+
+    <div id="container">
+
+
+            <h2 id="stockName">股票名称</h2>
+
+            <div class="ui_content">
+            <div class="ui_text_indent">
+                <div id="box_border">
+                    <div id="box_top">所要查看的股票</div>
+                    <div id="box_center" >
+                    	股票代号&nbsp;&nbsp;<input type="text" id="stockNumber" name="stockNumber" class="ui_input_number02" onkeyup="setStockList();" />
+						<div id="ddldiv" style=" DISPLAY: none;Z-INDEX: 99;POSITION: absolute"><SELECT id="ddl" style="width:150px;" onchange="selectthis();"></SELECT></div>
+                    
+                  	    &nbsp;参数一
+                        <select name="para1" id="para1" class="ui_select01" >
+                            <option value="open">开盘价</option>
+                            <option value="high">最高价</option>
+                            <option value="close">收盘价</option>
+                            <option value="low">最低价</option>
+                            <option value="volume">交易量</option>
+                            <option value="adj_price">后复权价</option>
+                            <option value="pb">市净率</option>
+                            <option value="turnover">换手率</option>
+                            <option value="market">大盘价</option>
+                        </select>
+                        
+                        &nbsp;参数二
+                        <select name="para2" id="para2" class="ui_select01" >
+                            <option value="open">开盘价</option>
+                            <option value="high">最高价</option>
+                            <option value="close">收盘价</option>
+                            <option value="low">最低价</option>
+                            <option value="volume">交易量</option>
+                            <option value="adj_price">后复权价</option>
+                            <option value="pb">市净率</option>
+                            <option value="turnover">换手率</option>
+                            <option value="market">大盘价</option>
+
+                        </select>
+							
+                        &nbsp;开始日期&nbsp;&nbsp;<input type="date" name="start_date" id="startDate"  />
+
+                        &nbsp;结束日期&nbsp;&nbsp;<input type="date" name="end_date" id="endDate"/>                                                                                    
+
+                       
+
+
+                        </div>
+
+
+                    <div  id="box_bottom">
+
+                        <input type="button" value="查询" class="ui_input_btn01" onclick="computeCorrelation();" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+         <div id="chartContent">
+         <iframe id="dynamicChart"  frameBorder="0" width="1000" scrolling="no" height="400"></iframe>
+         <div  style="height:50px;line-height: 50px;background-color: #044599;font-family:微软雅黑;font-size:21px;color:#FFF0F5;">
+    		&nbsp图表分析
+		 </div>
+		 <p id="analysis" style="        position:relative;
+        left:5px;
+        top:10px;
+        font-family:微软雅黑;
+        font-size:15px;"></p>
+        <br><br><br>
+         </div>
+    </div>
+       
+</form>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+who:邓逸鹏，周畅，黄迪璇，何永俊
+when:第二周
+what:讨论项目启动文档，系统用例文档，需求规格文档
+how long:1h
+arrived solutions:1.修改了用例文档 2.统一使用sourcetree进行项目管理 3.明确了本周工作安排

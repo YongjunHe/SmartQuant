@@ -1,0 +1,29 @@
+package impl;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import twaver.base.A.E.i;
+
+public class SmartSort {
+
+	public static void main(String[]args){
+		ArrayList<String> e = new ArrayList<>();
+		e.add("1111");
+		e.add("2222");
+		e.add("3333");
+		
+		Iterator iterator  = e.iterator();
+		
+		Iterator iterator2 = iterator.clone();
+		
+		
+		while(iterator2.hasNext())
+			System.out.println(iterator2.next());
+		
+		while(iterator.hasNext())
+			System.out.println(iterator.next());
+		
+		
+	}
+}

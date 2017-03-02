@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="scripts/jquery/jquery-1.7.1.js"></script>
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="scripts/echarts/echarts.min.js"></script>
+</head>
+<body>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="width: 1000px;height:400px;"></div>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+    var dateData = [];
+    var lowData = [];
+    var highData = [];
+    var trueData = [];
+
+
+    $.ajax({
+        type : "GET",  //提交方式
+        url : "action/stockTrendMessage.jsp",//路径
+        data : "name="+getvalue("name")+"&beginDate="+getvalue("beginDate")+"&endDate="+getvalue("endDate"),
+        dataType: "json",//??
+        async : false,
+        success : function(result) {//返回数据根据结果进行相应的处理
+        	solveJson(result);
+
+
+            showChart(getCName());
+        }
+
+    });
+
+    
+    function solveJson(jsonData){
+
+    	for(var i=0;i<jsonData.length;i++){
+    		dateData.push(jsonData[i].date);
+    		lowData.push(jsonData[i].data2);
+    		highData.push(jsonData[i].data3);
+    		trueData.push(jsonData[i].data);
+    	}
+
+    }
+    
+
+
+
+    function getCName(){
+        var cName;
+        $.ajax({
+            type : "GET",  //提交方式
+            url : "action/getCName.jsp",//路径
+            data : "name="+getvalue("name"),
+            async : false,
+            dataType: "text",
+            success : function(result) {//返回数据根据结果进行相应的处理
+                cName = result;
+            }
+
+        });
+
+
+        return cName.replace(/[\r\n]/g,"");
+    }
+
+  /*  function solveJson(jsonData){
+        var a = new Array(jsonData.length);
+        for(var i=0;i<jsonData.length;i++){
+            var temp = new Array(5);
+            temp[0]=jsonData[i].date;
+            temp[1]=jsonData[i].open;
+            temp[2]=jsonData[i].close;
+            temp[3]=jsonData[i].low;
+            temp[4]=jsonData[i].high;
+            a[i]=temp;
+        }
+        return a;
+    }
+*/
+
+    function getvalue(name){
+        var str=window.location.search;
+        if (str.indexOf(name)!=-1){
+            var pos_start=str.indexOf(name)+name.length+1;
+            var pos_end=str.indexOf("&",pos_start);
+            if (pos_end==-1){
+                return str.substring(pos_start);
+            }else{
+                return str.substring(pos_start,pos_end);
+            }
+        }
+    }
+
+
+
+    function showChart(cName) {
+    	option = {
+    		    title: {
+    		        text: cName
+    		    },
+    		    tooltip: {
+    		        trigger: 'axis'
+    		    },
+    		    legend: {
+    		        data:['Buy','Sell','True']
+    		    },
+    		    grid: {
+    		        left: '3%',
+    		        right: '4%',
+    		        bottom: '3%',
+    		        containLabel: true
+    		    },
+    		    toolbox: {
+    		        feature: {
+    		            saveAsImage: {}
+    		        }
+    		    },
+    		    xAxis: {
+    		        type: 'category',
+	                data: dateData,
+    		        boundaryGap: false,
+
+    		        
+    		    },
+    		    yAxis: {
+    		        type: 'value',
+	                scale: true,
+	                splitArea: {
+	                    show: true
+	                }
+    		    },
+    		    series: [
+    		        {
+    		            name:'Buy',
+    		            type:'line',
+    		            showSymbol: false,
+    		            hoverAnimation: false,
+    		            data:lowData,
+    		        },
+    		        {
+    		            name:'Sell',
+    		            type:'line',
+    		            showSymbol: false,
+    		            hoverAnimation: false,
+    		            data:highData,
+    		        },
+    		        {
+    		            name:'True',
+    		            type:'line',
+    		            showSymbol: false,
+    		            hoverAnimation: false,
+    		            data:trueData,
+    		        }
+    		    ]
+    		};
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    }
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+<head prefix='og: http://ogp.me/ns#'>
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='object' property='og:type'>
+    <meta content='GitLab' property='og:site_name'>
+    <meta content='Projects · Dashboard' property='og:title'>
+    <meta content='GitLab Community Edition' property='og:description'>
+    <meta content='http://114.55.35.12/assets/gitlab_logo-f94735ed1486ec1e35ce78e4c1747b4d.png' property='og:image'>
+    <meta content='http://114.55.35.12/' property='og:url'>
+    <meta content='summary' property='twitter:card'>
+    <meta content='Projects · Dashboard' property='twitter:title'>
+    <meta content='GitLab Community Edition' property='twitter:description'>
+    <meta content='http://114.55.35.12/assets/gitlab_logo-f94735ed1486ec1e35ce78e4c1747b4d.png' property='twitter:image'>
+
+    <title>Projects · Dashboard · GitLab</title>
+    <meta content='GitLab Community Edition' name='description'>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-0037f4682f7f2d45973338aad43f3d54.ico" />
+    <link rel="stylesheet" media="all" href="/assets/application-2c778293d25fd107e6a97ac0cdf49cd0.css" />
+    <link rel="stylesheet" media="print" href="/assets/print-2cb1262fb60ceb73f2fe76fd1a61dccf.css" />
+    <script src="/assets/application-140004440b5557ee3118431b2d8c76cb.js"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta name="csrf-token" content="y0NLPNCBIOaWeOeUEJpydWycdcZMF4dK8J8CqaqMKStU6KA8jBIGNRgi1LdH/DbczTfGmhHSqqZ3m7kiVynzfQ==" />
+    <script>
+//<![CDATA[
+window.gon={};gon.api_version="v3";gon.default_avatar_url="http://114.55.35.12/assets/no_avatar-0801eb7ed213327da2a534095a75b248.png";gon.default_issues_tracker="gitlab";gon.max_file_size=10;gon.relative_url_root="";gon.user_color_scheme="white";gon.current_user_id=116;gon.api_token="iTsJjvB3-RrJFEFrL3gQ";
+//]]>
+</script>
+    <meta content='origin-when-cross-origin' name='referrer'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
+    <meta content='#474D57' name='theme-color'>
+    <link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-c2b181d197c3b7be4f8ac381458895bb.png" />
+    <link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-fede15aef7610235936a27957400503a.png" sizes="76x76" />
+    <link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-retina-88529dea2f9320df1a3cc45d92e86147.png" sizes="120x120" />
+    <link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-retina-c0dbda7e71802ee480f6d666da4b834a.png" sizes="152x152" />
+    <meta content='/assets/msapplication-tile-2efcb14bec26fd879dd1914db581f8f9.png' name='msapplication-TileImage'>
+    <meta content='#30353E' name='msapplication-TileColor'>
+    <link rel="alternate" type="application/atom+xml" title="All activity" href="http://114.55.35.12/dashboard/projects.atom?private_token=iTsJjvB3-RrJFEFrL3gQ" />
+
+
+
+
+    <style>
+  [data-user-is] {
+    display: none !important;
+  }
+  
+  [data-user-is="116"] {
+    display: block !important;
+  }
+  
+  [data-user-is="116"][data-display="inline"] {
+    display: inline !important;
+  }
+  
+  [data-user-is-not] {
+    display: block !important;
+  }
+  
+  [data-user-is-not][data-display="inline"] {
+    display: inline !important;
+  }
+  
+  [data-user-is-not="116"] {
+    display: none !important;
+  }
+</style>
+
+</head>
+
+<body class='ui_charcoal' data-page='root:index'>
+
+<header class='header-expanded navbar navbar-fixed-top navbar-gitlab'>
+    <div class='container-fluid'>
+        <div class='header-content'>
+            <button class='navbar-toggle' type='button'>
+                <span class='sr-only'>Toggle navigation</span>
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class='navbar-collapse collapse'>
+                <ul class='nav navbar-nav pull-right'>
+                    <li class='hidden-sm hidden-xs'>
+                        <div class='search'>
+                            <form class="navbar-form pull-left" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+                                <input type="search" name="search" id="search" placeholder="Search" class="search-input form-control" spellcheck="false" />
+                                <input type="hidden" name="group_id" id="group_id" />
+                                <input type="hidden" name="repository_ref" id="repository_ref" />
+
+                                <div class='search-autocomplete-opts hide' data-autocomplete-path='/search/autocomplete'></div>
+                            </form>
+
+                        </div>
+                        <script>
+  $('.search-input').on('keyup', function(e) {
+    if (e.keyCode == 27) {
+      $('.search-input').blur();
+    }
+  });
+</script>
+
+                    </li>
+                    <li class='visible-sm visible-xs'>
+                        <a title="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search"><i class="fa fa-search"></i>
+                        </a></li>
+                    <li>
+                        <a title="New project" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/projects/new"><i class="fa fa-plus fa-fw"></i>
+                        </a></li>
+                    <li>
+                        <a class="logout" title="Sign out" data-toggle="tooltip" data-placement="bottom" data-container="body" rel="nofollow" data-method="delete" href="/users/sign_out"><i class="fa fa-sign-out"></i>
+                        </a></li>
+                </ul>
+            </div>
+            <h1 class='title'><a href="/dashboard/projects">Projects</a></h1>
+        </div>
+    </div>
+</header>
+
+
+<div class='page-sidebar-expanded page-with-sidebar'>
+
+
+    <div class='nicescroll sidebar-expanded sidebar-wrapper'>
+        <div class='header-logo'>
+            <a class="home" title="Dashboard" id="js-shortcuts-home" href="/"><svg width="36px" height="36px" viewBox="0 0 210 210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="tanuki-logo">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                    <g id="logo" sketch:type="MSLayerGroup" transform="translate(0.000000, 10.000000)">
+                        <g id="Page-1" sketch:type="MSShapeGroup">
+                            <g id="Fill-1-+-Group-24">
+                                <g id="Group-24">
+                                    <g id="Group">
+                                        <path id="tanuki-right-ear"   d="M12.2685,74.7342 L66.4215,74.7342 L43.1485,3.1092 C41.9515,-0.5768 36.7375,-0.5758 35.5405,3.1092 L12.2685,74.7342 L12.2685,74.7342 Z" fill="#E24329" class="tanuki-shape"></path>
+                                        <path id="tanuki-right-cheek" d="M12.2685,74.7341 L12.2685,74.7341 L0.5265,110.8731 C-0.5445,114.1691 0.6285,117.7801 3.4325,119.8171 L105.0615,193.6551 L12.2685,74.7341 L12.2685,74.7341 Z" fill="#FCA326" class="tanuki-shape"></path>
+                                        <path id="tanuki-right-eye"   d="M105.0614,193.6548 L66.4214,74.7338 L12.2684,74.7338 L105.0614,193.6548 L105.0614,193.6548 Z" fill="#FC6D26" class="tanuki-shape"></path>
+                                        <path id="tanuki-nose"        d="M105.0614,193.655 L105.0614,193.655 L143.7014,74.734 L66.4214,74.734 L105.0614,193.655 L105.0614,193.655 Z" fill="#E24329" class="tanuki-shape"></path>
+                                        <path id="tanuki-left-eye"    d="M105.0614,193.6548 L143.7014,74.7338 L197.8544,74.7338 L105.0614,193.6548 L105.0614,193.6548 Z" fill="#FC6D26" class="tanuki-shape"></path>
+                                        <path id="tanuki-left-cheek"  d="M197.8544,74.7341 L197.8544,74.7341 L209.5964,110.8731 C210.6674,114.1691 209.4944,117.7801 206.6904,119.8171 L105.0614,193.6551 L197.8544,74.7341 L197.8544,74.7341 Z" fill="#FCA326" class="tanuki-shape"></path>
+                                        <path id="tanuki-left-ear"    d="M197.8544,74.7342 L143.7014,74.7342 L166.9744,3.1092 C168.1714,-0.5768 173.3854,-0.5758 174.5824,3.1092 L197.8544,74.7342 L197.8544,74.7342 Z" fill="#E24329" class="tanuki-shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+
+                <div class='gitlab-text-container'>
+                    <h3>GitLab</h3>
+                </div>
+            </a></div>
+        <ul class='nav nav-sidebar'>
+            <li class="home active"><a title="Projects" href="/dashboard/projects"><i class="fa fa-home fa-fw"></i>
+<span>
+Projects
+</span>
+            </a></li><li class=""><a class="shortcuts-activity" title="Activity" href="/dashboard/activity"><i class="fa fa-dashboard fa-fw"></i>
+<span>
+Activity
+</span>
+        </a></li><li class=""><a title="Groups" href="/dashboard/groups"><i class="fa fa-group fa-fw"></i>
+<span>
+Groups
+</span>
+        </a></li><li class=""><a title="Milestones" href="/dashboard/milestones"><i class="fa fa-clock-o fa-fw"></i>
+<span>
+Milestones
+</span>
+        </a></li><li class=""><a title="Issues" class="shortcuts-issues" href="/dashboard/issues?assignee_id=116"><i class="fa fa-exclamation-circle fa-fw"></i>
+<span>
+Issues
+<span class='count'>0</span>
+</span>
+        </a><li class=""><a title="Merge Requests" class="shortcuts-merge_requests" href="/dashboard/merge_requests?assignee_id=116"><i class="fa fa-tasks fa-fw"></i>
+<span>
+Merge Requests
+<span class='count'>0</span>
+</span>
+        </a></li></li><li class=""><a title="Snippets" href="/dashboard/snippets"><i class="fa fa-clipboard fa-fw"></i>
+<span>
+Snippets
+</span>
+        </a></li><li class=""><a title="Help" href="/help"><i class="fa fa-question-circle fa-fw"></i>
+<span>
+Help
+</span>
+        </a></li><li class='separate-item'></li>
+            <li class=""><a title="Profile Settings" data-placement="bottom" href="/profile"><i class="fa fa-user fa-fw"></i>
+<span>
+Profile Settings
+</span>
+            </a></li></ul>
+
+        <div class='collapse-nav'>
+            <a class="toggle-nav-collapse" title="Open/Close" href="#"><i class="fa fa-angle-left"></i></a>
+
+        </div>
+        <a class="sidebar-user" title="Profile" href="/u/zc14"><img alt="Profile" class="avatar avatar s36" src="http://www.gravatar.com/avatar/5d61c662773587ff7bae2ce4623123cc?s=120&amp;d=identicon" />
+            <div class='username'>
+                zc14
+            </div>
+        </a></div>
+    <div class='content-wrapper'>
+        <div class='flash-container'>
+        </div>
+
+
+
+        <div class='container-fluid container-limited'>
+            <div class='content'>
+                <div class='clearfix'>
+                    <div class='top-area'>
+                        <ul class='nav-links'>
+                            <li class="active"><a title="Home" class="shortcuts-activity" data-placement="right" href="/dashboard/projects">Your Projects
+                            </a></li><li class=""><a title="Starred Projects" data-placement="right" href="/dashboard/projects/starred">Starred Projects
+                        </a></li><li class="hidden-xs"><a title="Explore" data-placement="right" href="/explore">Explore Projects
+                        </a></li></ul>
+                        <div class='projects-search-form'>
+                            <input type="search" name="filter_projects" id="filter_projects" placeholder="Filter by name..." class="projects-list-filter form-control hidden-xs" spellcheck="false" />
+                            <a class="btn btn-green" href="/projects/new"><i class='fa fa-plus'></i>
+                                New Project
+                            </a></div>
+                    </div>
+
+                    <div class='projects-list-holder'>
+                        <ul class='projects-list'>
+                            <li class='no-description project-row'>
+                                <a class="project" href="/141250047_cseiii_AnyQuant/SmartQuant"><div class='dash-project-avatar'>
+                                    <div class="avatar project-avatar s46 identicon" style="background-color: #FBE9E7; color: #555">S</div>
+                                </div>
+<span class='project-full-name'>
+<span class='namespace-name'>
+141250047_cseiii_AnyQuant
+/
+</span>
+<span class='project-name filter-title'>
+SmartQuant
+</span>
+</span>
+                                </a><div class='project-controls'>
+<span>
+<i class='fa fa-star'></i>
+1
+</span>
+                            </div>
+                            </li>
+
+                        </ul>
+                        <script>
+  new ProjectsList();
+</script>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+
